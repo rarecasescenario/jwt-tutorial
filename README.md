@@ -14,3 +14,18 @@ Spring Boot: 3.0.2
 3. Spring Configuration Processor
 Java: 19
 ```
+
+
+### Generating RSA Keys
+```
+1. Create a new folder /certs under /resources
+2. Open terminal and generate private key
+   openssl genrsa -out keypair.pem 2048
+ 
+   Or, you can use putty to generate ssh keys
+3. Generate a public key form the private key file
+   openssl rsa -in keypair.pem -pubout public.pem
+4. Generated encrypted
+   openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in keypair.pem -out private.pem
+   
+```

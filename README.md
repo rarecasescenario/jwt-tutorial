@@ -1,7 +1,11 @@
 ### Spring Security JWT: How to secure your Spring Boot REST APIs with JSON Web Tokens
 ```
 https://www.youtube.com/watch?v=KYNR5js2cXE&ab_channel=DanVega
+https://github.com/danvega/jwt
+
 git@github.com:rarecasescenario/jwt-tutorial.git
+
+
 ```
 
 ### Create a project using Spring Starter
